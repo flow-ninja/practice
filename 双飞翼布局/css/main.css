@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-width: 600px;
+}
+.header , .footer {
+    background-color: #aaaaaa;
+    text-align: center;
+}
+.main , .sub , .extra {
+    float: left;
+}
+.realmain , .sub , .extra {
+    min-height: 300px;
+}
+.main {
+    width: 100%;
+}
+.realmain {
+    margin: 0 200px;
+    background-color: #ccff66;
+}
+.sub {
+    width: 200px;
+    background-color: #00cccc;
+    margin-left: -100%;
+}
+.extra {
+    width: 200px;
+    background-color: #ff99cc;
+    margin-left: -200px;
+}
+.footer {
+    clear: both;
+}
